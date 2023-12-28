@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 190a5a7919243430b820876eb340605d
+guid: 97ad9ea62448a4778a06812a4d77d48e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_0
+      name: levelTileset_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 128
         y: 192
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 698332a6ee85f470c8e18d35a2492913
-      internalID: -498169818
+      spriteID: 131fc4c55c93a404ab7775b7a9cfd04c
+      internalID: 1986172768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_1
+      name: levelTileset_1
       rect:
         serializedVersion: 2
-        x: 63
+        x: 160
         y: 192
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72d48d093b19742eea891f0357c5b257
-      internalID: 180647355
+      spriteID: c9438204a324e48e18406bd03d43debb
+      internalID: -981816960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_2
+      name: levelTileset_2
       rect:
         serializedVersion: 2
-        x: 126
+        x: 192
         y: 192
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f7f0337e50424112aba9f20a32a9e78
-      internalID: -1797444389
+      spriteID: b938584dd3a5641f4a0149d11fdb11d5
+      internalID: -1967006665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_3
+      name: levelTileset_3
       rect:
         serializedVersion: 2
-        x: 189
+        x: 224
         y: 192
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4378b67674a54db58f57a2153264e4a
-      internalID: 1799654388
+      spriteID: fc9d849e3363744cda583beffda9eab0
+      internalID: 1561285478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_4
+      name: levelTileset_4
       rect:
         serializedVersion: 2
-        x: 252
-        y: 192
-        width: 63
-        height: 64
+        x: 128
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b8d6931a97ac4af99b21e4502966af2
-      internalID: -915302199
+      spriteID: aa635ddec64534918b6f8ae50e95ab8f
+      internalID: -2046920554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_5
+      name: levelTileset_5
       rect:
         serializedVersion: 2
-        x: 315
-        y: 192
-        width: 63
-        height: 64
+        x: 160
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fbfae369a294442c99ac772e6a4ac8e
-      internalID: 426609914
+      spriteID: ef88edcbb42f14f3f8f4e1604997b570
+      internalID: -957806950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_6
+      name: levelTileset_6
       rect:
         serializedVersion: 2
-        x: 378
-        y: 192
-        width: 63
-        height: 64
+        x: 224
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,41 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b790c4b5c5de547de9f4ff36bb5134d1
-      internalID: 47962110
+      spriteID: b869bde43a3a949248059e6db82f64a7
+      internalID: 891753939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_7
+      name: levelTileset_7
       rect:
         serializedVersion: 2
-        x: 441
-        y: 192
-        width: 70
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbbf2d6044e1447778d25e39ddcc9cb4
-      internalID: -936508037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: levelTilemapPlaceholder_8
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 64
         y: 128
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2fbdc26c534c407c8701e7f2a961bc5
-      internalID: 1796041361
+      spriteID: 5c9bc560c1e8d49fca097479fe4d4422
+      internalID: 340139454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_9
+      name: levelTileset_8
       rect:
         serializedVersion: 2
-        x: 63
+        x: 96
         y: 128
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bca4377b11c5482bbff03d67ee0fe3f
-      internalID: 2142453749
+      spriteID: 92db02b830657490699e5891b49704c9
+      internalID: -2035683805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_10
+      name: levelTileset_9
       rect:
         serializedVersion: 2
-        x: 126
+        x: 128
         y: 128
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0197b58b15308437182a7cba0e68e0a3
-      internalID: -1835682820
+      spriteID: 7f7c7b7bde13e4c398edd3f28b3a47a4
+      internalID: -1417378109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_11
+      name: levelTileset_10
       rect:
         serializedVersion: 2
-        x: 189
+        x: 160
         y: 128
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,20 +347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff8fb79a67b444716993ff240644fe6f
-      internalID: -488652661
+      spriteID: df8e74841499445738ef9f49ef09bca6
+      internalID: 1864721665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_12
+      name: levelTileset_11
       rect:
         serializedVersion: 2
-        x: 252
+        x: 192
         y: 128
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec608cb68e798481d97687a44aba335c
-      internalID: 1732918267
+      spriteID: 2c77c9c8a0e1c4cd1b732682d13244fc
+      internalID: -1543557072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_13
+      name: levelTileset_12
       rect:
         serializedVersion: 2
-        x: 315
+        x: 224
         y: 128
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,62 +389,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa49da06c771b488497a9870f50ac32a
-      internalID: -2147411964
+      spriteID: ed21b39faf4be4734b04dfe15c04d856
+      internalID: -2111634659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_14
-      rect:
-        serializedVersion: 2
-        x: 378
-        y: 128
-        width: 63
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70eaeaa97b163472e901dd713b870ffd
-      internalID: -658453815
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: levelTilemapPlaceholder_15
-      rect:
-        serializedVersion: 2
-        x: 441
-        y: 128
-        width: 70
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c0a33c82f7ab4daf978ee3306c5645f
-      internalID: 2038556913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: levelTilemapPlaceholder_16
+      name: levelTileset_13
       rect:
         serializedVersion: 2
         x: 0
         y: 64
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -473,20 +410,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a45deed35bf04a91988194d2ce4bf4d
-      internalID: 1253598890
+      spriteID: 2b411ed75fd4b4c748de9298fb17cd3e
+      internalID: 718900660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_17
+      name: levelTileset_14
       rect:
         serializedVersion: 2
-        x: 63
+        x: 32
         y: 64
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,20 +431,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9076aedc4244d40d29140979d6f4de19
-      internalID: -1102101074
+      spriteID: 7f232c101dbcd4caaaa367002a1b547d
+      internalID: 360876794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_18
+      name: levelTileset_15
       rect:
         serializedVersion: 2
-        x: 126
+        x: 64
         y: 64
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,20 +452,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 831c10f01f4db40d1bb6eb99597f6d43
-      internalID: -148892863
+      spriteID: 5ddd27d2ac69249de880417d48170649
+      internalID: 425412761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_19
+      name: levelTileset_16
       rect:
         serializedVersion: 2
-        x: 189
+        x: 96
         y: 64
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,20 +473,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4f0e757febf94919accb2c1c1d47b48
-      internalID: 513032553
+      spriteID: b2c0ba70c75ad48efb0511c787853329
+      internalID: 1021077648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_20
+      name: levelTileset_17
       rect:
         serializedVersion: 2
-        x: 252
+        x: 128
         y: 64
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -557,20 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0633ce7d9822e4eb88ada131ffa372f8
-      internalID: -444775482
+      spriteID: 6dc4ed203d53d4ef1aafd53cb446a58c
+      internalID: 293560995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_21
+      name: levelTileset_18
       rect:
         serializedVersion: 2
-        x: 315
+        x: 160
         y: 64
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,20 +515,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5feef75947d5643dda00465d86a5b817
-      internalID: 1881789844
+      spriteID: bf3fe67e10a9c4ad592038e3d316daa1
+      internalID: -1208356694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_22
+      name: levelTileset_19
       rect:
         serializedVersion: 2
-        x: 378
+        x: 192
         y: 64
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -599,20 +536,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb111d0152d644bf084be70f734df22e
-      internalID: 1394192934
+      spriteID: 39738f5cc3cac46f0886bcb48ec6c82d
+      internalID: -861181333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_23
+      name: levelTileset_20
       rect:
         serializedVersion: 2
-        x: 441
+        x: 224
         y: 64
-        width: 70
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -620,20 +557,188 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aad9137a1afef43caa04a573dd969a2a
-      internalID: -1414617356
+      spriteID: 753399ce8bd4147a6aff26b64f1b6ff5
+      internalID: -16380759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_24
+      name: levelTileset_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a77506a0898649349ff2f8f1a16e515
+      internalID: -121947771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelTileset_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb284c412703e41ab98382fb3220149c
+      internalID: -1964170883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelTileset_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfadf48e2555b43b9a960548c7fc7c6f
+      internalID: 1905267999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelTileset_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844265e437962483d875c698ec2b07d3
+      internalID: -1259968732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelTileset_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a238388437b99404e923ea4cd990a85c
+      internalID: -134857926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelTileset_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5454fa44cd2a94bc1b0f51afb989f7a4
+      internalID: 384598259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelTileset_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04dd1b20acfc49c88b0df8a950aafac
+      internalID: 118757843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelTileset_28
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7f9169abce941e59a2d34fa5040614
+      internalID: 751518778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelTileset_29
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -641,20 +746,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f98670efef344989b14277a99c0d645
-      internalID: 929132532
+      spriteID: 9eb61506cddf34c1ab2e473ddb8e8531
+      internalID: 1588839614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_25
+      name: levelTileset_30
       rect:
         serializedVersion: 2
-        x: 63
+        x: 32
         y: 0
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -662,20 +767,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50b179fadce424ebb9d3b8d8b5051fd8
-      internalID: 535385472
+      spriteID: 0ce22ca8de7aa4b928f15f22d14aa651
+      internalID: 960858706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_26
+      name: levelTileset_31
       rect:
         serializedVersion: 2
-        x: 126
+        x: 64
         y: 0
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -683,20 +788,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0b50f9840b1e4612850a90d588cfd2f
-      internalID: 796311488
+      spriteID: 6d871a14f1080484cb72cbd5d4c04ff7
+      internalID: -494466320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_27
+      name: levelTileset_32
       rect:
         serializedVersion: 2
-        x: 189
+        x: 96
         y: 0
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -704,20 +809,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c997109eb04534427ba5bbb4d6c1377e
-      internalID: -1437911183
+      spriteID: 12ba05d1fa1c24ecc8d50235c09c2762
+      internalID: 691585554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_28
+      name: levelTileset_33
       rect:
         serializedVersion: 2
-        x: 252
+        x: 128
         y: 0
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -725,20 +830,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37862e7eb41924ea9a454468acb4777f
-      internalID: 208301131
+      spriteID: 18451c21da1134624a5c9e02c742a62c
+      internalID: 525358280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_29
+      name: levelTileset_34
       rect:
         serializedVersion: 2
-        x: 315
+        x: 160
         y: 0
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -746,20 +851,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4abe5d8376c7452e8aba612d6bb7e06
-      internalID: -669488831
+      spriteID: e2b50921b6e0c456db9c0bbc8a6412e6
+      internalID: -268231556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_30
+      name: levelTileset_35
       rect:
         serializedVersion: 2
-        x: 378
+        x: 192
         y: 0
-        width: 63
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,20 +872,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be80e18002a714b21812793ba346a7e5
-      internalID: 468198432
+      spriteID: 165658dcfb1bd483f8bef542a5096775
+      internalID: 1172128059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: levelTilemapPlaceholder_31
+      name: levelTileset_36
       rect:
         serializedVersion: 2
-        x: 441
+        x: 224
         y: 0
-        width: 70
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -788,8 +893,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07eba7ed42c9b494eb7dbb316eca6a04
-      internalID: -1340825580
+      spriteID: 1a93be89271a6435d8c8afb3465b66dc
+      internalID: -1017289566
       vertices: []
       indices: 
       edges: []
@@ -805,38 +910,43 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      levelTilemapPlaceholder_0: -498169818
-      levelTilemapPlaceholder_1: 180647355
-      levelTilemapPlaceholder_10: -1835682820
-      levelTilemapPlaceholder_11: -488652661
-      levelTilemapPlaceholder_12: 1732918267
-      levelTilemapPlaceholder_13: -2147411964
-      levelTilemapPlaceholder_14: -658453815
-      levelTilemapPlaceholder_15: 2038556913
-      levelTilemapPlaceholder_16: 1253598890
-      levelTilemapPlaceholder_17: -1102101074
-      levelTilemapPlaceholder_18: -148892863
-      levelTilemapPlaceholder_19: 513032553
-      levelTilemapPlaceholder_2: -1797444389
-      levelTilemapPlaceholder_20: -444775482
-      levelTilemapPlaceholder_21: 1881789844
-      levelTilemapPlaceholder_22: 1394192934
-      levelTilemapPlaceholder_23: -1414617356
-      levelTilemapPlaceholder_24: 929132532
-      levelTilemapPlaceholder_25: 535385472
-      levelTilemapPlaceholder_26: 796311488
-      levelTilemapPlaceholder_27: -1437911183
-      levelTilemapPlaceholder_28: 208301131
-      levelTilemapPlaceholder_29: -669488831
-      levelTilemapPlaceholder_3: 1799654388
-      levelTilemapPlaceholder_30: 468198432
-      levelTilemapPlaceholder_31: -1340825580
-      levelTilemapPlaceholder_4: -915302199
-      levelTilemapPlaceholder_5: 426609914
-      levelTilemapPlaceholder_6: 47962110
-      levelTilemapPlaceholder_7: -936508037
-      levelTilemapPlaceholder_8: 1796041361
-      levelTilemapPlaceholder_9: 2142453749
+      levelTileset_0: 1986172768
+      levelTileset_1: -981816960
+      levelTileset_10: 1864721665
+      levelTileset_11: -1543557072
+      levelTileset_12: -2111634659
+      levelTileset_13: 718900660
+      levelTileset_14: 360876794
+      levelTileset_15: 425412761
+      levelTileset_16: 1021077648
+      levelTileset_17: 293560995
+      levelTileset_18: -1208356694
+      levelTileset_19: -861181333
+      levelTileset_2: -1967006665
+      levelTileset_20: -16380759
+      levelTileset_21: -121947771
+      levelTileset_22: -1964170883
+      levelTileset_23: 1905267999
+      levelTileset_24: -1259968732
+      levelTileset_25: -134857926
+      levelTileset_26: 384598259
+      levelTileset_27: 118757843
+      levelTileset_28: 751518778
+      levelTileset_29: 1588839614
+      levelTileset_3: 1561285478
+      levelTileset_30: 960858706
+      levelTileset_31: -494466320
+      levelTileset_32: 691585554
+      levelTileset_33: 525358280
+      levelTileset_34: -268231556
+      levelTileset_35: 1172128059
+      levelTileset_36: -1017289566
+      levelTileset_4: -2046920554
+      levelTileset_5: -957806950
+      levelTileset_6: 891753939
+      levelTileset_7: 340139454
+      levelTileset_8: -2035683805
+      levelTileset_9: -1417378109
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
