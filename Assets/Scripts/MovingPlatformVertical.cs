@@ -27,6 +27,7 @@ public class MovingPlatformVertical : MonoBehaviour
     public PatrolsType patrolsType;
     private Animator _animator;
     private Rigidbody2D _rb;
+    public PlayerInteractions playerInteractions;
 
     void Start()
     {
@@ -39,7 +40,7 @@ public class MovingPlatformVertical : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKey(KeyCode.E))
+        if(Input.GetKey(KeyCode.E) && playerInteractions.hasElectricCharm == true)
         {
             StartCoroutine(PlayAnimation());
         }

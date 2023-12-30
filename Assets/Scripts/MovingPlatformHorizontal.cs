@@ -24,6 +24,7 @@ public class MovingPlatformHorizontal : MonoBehaviour
     public PatrolType patrolType;
     private Animator _animator;
     private Rigidbody2D _rb;
+    public PlayerInteractions playerInteractions;
     void Start()
     {
         currentWayPointIndex = 0;
@@ -36,9 +37,10 @@ public class MovingPlatformHorizontal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.E))
+        if(Input.GetKey(KeyCode.E) && playerInteractions.hasElectricCharm == true)
         {
             StartCoroutine(PlayAnimation());
+            playerInteractions.hasElectricCharm = false;
         }
         if(platformState == PlatformState.PATROL)
         {

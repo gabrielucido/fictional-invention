@@ -149,6 +149,7 @@ MonoBehaviour:
   boxSize: {x: 0, y: 0}
   platformsState: 1
   patrolsType: 0
+  playerInteractions: {fileID: 82443703}
 --- !u!1 &42757950 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4798181019054498458, guid: 0b54a9188f5c7c94b89a8624a9f84794, type: 3}
@@ -175,6 +176,7 @@ MonoBehaviour:
   boxSize: {x: 0, y: 0}
   platformsState: 1
   patrolsType: 0
+  playerInteractions: {fileID: 82443703}
 --- !u!1001 &56450853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19876,11 +19878,30 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!1 &82443690 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3621059724433449449, guid: c7b255780be604e99bc2394987ec563f, type: 3}
+  m_PrefabInstance: {fileID: 1301065718}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &82443702 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4984332571605759889, guid: c7b255780be604e99bc2394987ec563f, type: 3}
   m_PrefabInstance: {fileID: 1301065718}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &82443703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82443690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd44d5837636be643b46bb77aee68a97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasElectricCharm: 0
+  hasPhasingCharm: 0
 --- !u!1 &119833511
 GameObject:
   m_ObjectHideFlags: 0
@@ -20227,6 +20248,7 @@ MonoBehaviour:
   boxSize: {x: 0, y: 0}
   platformsState: 1
   patrolsType: 0
+  playerInteractions: {fileID: 82443703}
 --- !u!1 &664310123
 GameObject:
   m_ObjectHideFlags: 0
@@ -20809,7 +20831,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3621059724433449449, guid: c7b255780be604e99bc2394987ec563f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 82443703}
   m_SourcePrefab: {fileID: 100100000, guid: c7b255780be604e99bc2394987ec563f, type: 3}
 --- !u!1001 &1313869756
 PrefabInstance:
@@ -20921,6 +20946,7 @@ MonoBehaviour:
   boxSize: {x: 0, y: 0}
   platformState: 1
   patrolType: 0
+  playerInteractions: {fileID: 82443703}
 --- !u!95 &1330999377
 Animator:
   serializedVersion: 5
@@ -21109,6 +21135,7 @@ MonoBehaviour:
   boxSize: {x: 0, y: 0}
   platformState: 1
   patrolType: 0
+  playerInteractions: {fileID: 82443703}
 --- !u!1001 &1469362015
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21325,6 +21352,7 @@ MonoBehaviour:
   boxSize: {x: 0, y: 0}
   platformsState: 1
   patrolsType: 0
+  playerInteractions: {fileID: 82443703}
 --- !u!1 &1623768364 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4798181019054498458, guid: 0b54a9188f5c7c94b89a8624a9f84794, type: 3}
@@ -21351,6 +21379,7 @@ MonoBehaviour:
   boxSize: {x: 0, y: 0}
   platformState: 1
   patrolType: 0
+  playerInteractions: {fileID: 82443703}
 --- !u!1001 &1843470961
 PrefabInstance:
   m_ObjectHideFlags: 0
