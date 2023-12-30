@@ -104,6 +104,8 @@ GameObject:
   - component: {fileID: 9052857286795031927}
   - component: {fileID: 5522270462349955584}
   - component: {fileID: 1439530369248135053}
+  - component: {fileID: 2238073258834338663}
+  - component: {fileID: 4040567064783238550}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -399,3 +401,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   muzzleFlashOffset: {x: 0.6, y: -0.2, z: 0}
   projectile: {fileID: 2525743165600919552, guid: 56bf261a931f14026aad9a7a870dcdc4, type: 3}
+--- !u!114 &2238073258834338663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3621059724433449449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd44d5837636be643b46bb77aee68a97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasElectricCharm: 0
+  hasPhasingCharm: 0
+  passThroughSpeed: 5
+  isPassingThrough: 0
+  desiredPosition: {x: 0, y: 0, z: 0}
+  maxTravelDistance: 5
+  tilemap: {fileID: 0}
+  checkpointSystem: {fileID: 0}
+  hasCollected: 0
+--- !u!114 &4040567064783238550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3621059724433449449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e164cbae04c16cc43a6fb200307036b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

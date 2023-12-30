@@ -82,6 +82,7 @@ GameObject:
   - component: {fileID: 542164062283013381}
   - component: {fileID: 6835653229344119206}
   - component: {fileID: 7083495962310976496}
+  - component: {fileID: 2246025810158416588}
   m_Layer: 0
   m_Name: Follow Player Camera
   m_TagString: MainCamera
@@ -242,6 +243,20 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2246025810158416588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4541731798616175303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06a59032c2b772944879a43418af08fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  virtualCamera: {fileID: 5477360477718067817}
+  playerTransform: {fileID: 4984332571605759889, guid: c7b255780be604e99bc2394987ec563f, type: 3}
 --- !u!1 &7326919398842433813
 GameObject:
   m_ObjectHideFlags: 0

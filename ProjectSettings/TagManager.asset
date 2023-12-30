@@ -7,6 +7,8 @@ TagManager:
   - ElectricCharm
   - PhasingCharm
   - Collectable
+  - SpawnPoint
+  - Spikes
   layers:
   - Default
   - TransparentFX
