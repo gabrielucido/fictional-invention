@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
@@ -35,7 +34,7 @@ public class CheckpointSystem : MonoBehaviour
     public void SetCheckpoint(Vector3 checkpointPosition)
     {
         // Add the new checkpoint position to the array
-        ArrayUtility.Add(ref checkpoints, checkpointPosition);
+        checkpoints.Append(checkpointPosition);
     }
 
     // Call this method to teleport the player to the last checkpoint

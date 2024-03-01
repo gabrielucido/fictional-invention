@@ -30,11 +30,11 @@ public class PlayerAnimationController : PlayerBase
     private void HandleAnimationState()
     {
         var velocity = _movementController.GetVelocity();
-        _animator.SetBool(IdlingKey, Player.move.x == 0);
-        _animator.SetBool(WalkingKey, Player.move.x != 0);
-
-        _animator.SetBool(Falling, velocity.y < 0 && !_grounded);
-        _animator.SetBool(Jumping, velocity.y > 0 && !_grounded);
+        // _animator.SetBool(IdlingKey, Player.move.x == 0);
+        // _animator.SetBool(WalkingKey, Player.move.x != 0);
+        //
+        // _animator.SetBool(Falling, velocity.y < 0 && !_grounded);
+        // _animator.SetBool(Jumping, velocity.y > 0 && !_grounded);
     }
 
     private void HandleSpriteFlip()
